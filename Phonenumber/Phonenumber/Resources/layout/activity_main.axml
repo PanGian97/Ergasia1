@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		
+		android:text="Enter your Username:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textViewEmail" />
+	<EditText
+		android:text=""
+		android:layout_width="match_parent"
+		android:layout_height="137.0dp"
+		android:layout_below="@id/textViewEmail"
+		android:id="@+id/editTextEmail"
+	
+		 />
+	<TextView
+		android:text="Enter your password:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_below="@id/editTextEmail"
+		android:id="@+id/textViewPassword" />
+	<EditText
+		android:text=""
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="137.0dp"
+		android:layout_below="@id/textViewPassword"
+		android:id="@+id/editTextPassword"
+	
+		 />
+	<Button
+		android:text="Login"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/editTextPassword"
+		android:id="@+id/loginButton" />
+</RelativeLayout>
